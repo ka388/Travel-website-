@@ -1,5 +1,71 @@
-<p>Hello World</p>
-<h1>my name
-    and your name
-    you are my first job
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore The World | Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <h2 class="logo">ExploreTheWorld</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore beautiful destinations around the world.</p>
+            <a href="#destinations" class="cta-button">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/350x250" alt="Paris">
+                <h3>Paris</h3>
+                <p>The City of Light</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/350x250" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>The Land of the Rising Sun</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/350x250" alt="New York">
+                <h3>New York</h3>
+                <p>The City That Never Sleeps</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExploreTheWorld. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
